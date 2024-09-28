@@ -4,10 +4,9 @@ import Link from "next/link";
 
 interface WeekSelectorProps {
   weeks: string[];
-  onSelectWeek: (week: string) => void;
 }
 
-const WeekSelector: React.FC<WeekSelectorProps> = ({ weeks, onSelectWeek }) => {
+const WeekSelector: React.FC<WeekSelectorProps> = ({ weeks }) => {
   return (
     <div className="text-gray-300 py-12 px-4 sm:px-6 lg:px-8 font-mono">
       <div className="max-w-3xl mx-auto">
