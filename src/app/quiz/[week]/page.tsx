@@ -70,8 +70,8 @@ export default function QuizPage({ params }: { params: { week: string } }) {
           </Link>
         </div>
 
-        {quizCompleted && (
-          <div className="bg-gray-900 border-2 border-gray-700 p-6 mb-8 flex justify-between items-center ">
+        {quizCompleted ? (
+          <div className="bg-gray-900/40 border-2 border-gray-700 p-6 mb-8 flex justify-between items-center ">
             <div className="flex items-baseline">
               <span className="text-6xl font-bold text-blue-400">{score}</span>
               <span className="text-2xl text-gray-500 ml-2">/ {questions.length}</span>
@@ -84,13 +84,15 @@ export default function QuizPage({ params }: { params: { week: string } }) {
               Redo Quiz
             </button>
           </div>
+        ) : (
+          <p className="p-5"></p>
         )}
 
         {questions.map((question, index) => (
-          <div key={index} className="mb-8 bg-gray-900 border-2 border-gray-700 ">
-            <div className="bg-gray-800 p-4 border-b-2 border-gray-700">
+          <div key={index} className="mb-10 bg-transparent border-2 border-gray-700 ">
+            <div className="bg-gray-900/50 p-4 border-b-2 border-gray-700">
               <h2 className="text-lg text-white">
-                <span className="text-xl font-bold mr-2">{index + 1}.</span>
+                <span className="text-xl font-bold ml-2 mr-3">{index + 1}.</span>
                 <span
                   className=""
                   dangerouslySetInnerHTML={{ __html: formatQuestion(question.question) }}
@@ -141,7 +143,7 @@ export default function QuizPage({ params }: { params: { week: string } }) {
 
         {!quizCompleted && (
           <button
-            className="w-full mt-6 px-4 py-2 bg-blue-600 text-white hover:bg-blue-700 transition-colors text-lg font-semibold "
+            className="w-full my-6 px-4 py-2 bg-blue-600 text-white hover:bg-blue-700 transition-colors text-lg font-semibold "
             onClick={handleQuizSubmit}
           >
             Submit Quiz
