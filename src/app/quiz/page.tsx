@@ -8,10 +8,6 @@ export default function QuizWeekSelector() {
   const router = useRouter();
   const weeks = Object.keys(questionsByWeek);
 
-  const handleWeekSelect = (week: string) => {
-    router.push(`/quiz/${week}`);
-  };
-
   return (
     <div className="min-h-screen bg-black flex items-center justify-center">
       <WeekSelector weeks={weeks} />
