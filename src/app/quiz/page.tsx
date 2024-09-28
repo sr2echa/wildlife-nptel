@@ -12,5 +12,9 @@ export default function QuizWeekSelector() {
     router.push(`/quiz/${week}`);
   };
 
-  return <WeekSelector weeks={weeks} onSelectWeek={handleWeekSelect} />;
+  return (
+    <div className="min-h-screen bg-black flex items-center justify-center">
+      <WeekSelector weeks={weeks} onSelectWeek={handleWeekSelect} />
+    </div>
+  );
 }
