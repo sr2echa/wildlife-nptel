@@ -673,4 +673,169 @@ export const questionsByWeek: { [week: string]: Question[] } = {
       answer: "I = P X A X T",
     },
   ],
+  week10: [
+    {
+      question: "which of these is not a climatic forcing for Earth?",
+      options: [
+        "changes in plates tectonics",
+        "changes in Earth's orbit",
+        "changes in Sun's orbit",
+        "changes in Sun's strength",
+      ],
+      answer: "changes in Sun's orbit",
+    },
+    {
+      question: "Mesodebris in the context of plastic debris has fragment of size",
+      options: [">20mm", "5-20 mm", "<5mm", "<1mm"],
+      answer: "5-20 mm",
+    },
+    {
+      question: "macrodebris in the context of plastic debris had fragment of size",
+      options: [">20mm", "5-20mm", "<5mm", "<1mm"],
+      answer: ">20mm",
+    },
+    {
+      question:
+        '"any changes in natural or human systems that inadvertently increase vulnerability to climatic stimuli; an adaptation that does not succeed in reducing vulnerability but increase it instead" is a definition of',
+      options: ["adaptation", "mitigation", "maladaptation", "malmitigation"],
+      answer: "maladaptation",
+    },
+    {
+      question: "which of these is not a principle of ecological restoration?",
+      options: [
+        "ecological integrity",
+        "long term sustainability",
+        "benefits and engages scientists",
+        "informed by past and future",
+      ],
+      answer: "benefits and engages scientists",
+    },
+    {
+      question:
+        "the government came up with a regulation that incandescent bulbs be replaced by LED bulbs, so that electricity consumption and release of carbon dioxide from power plants is reduced. in the context of climate change, such an action would be called",
+      options: ["adaptation", "mitigation", "deceleration", "maladaptation"],
+      answer: "mitigation",
+    },
+    {
+      question: "which of these is not a principle of ecological restoration?",
+      options: [
+        "ecological integrity",
+        "short term sustainability",
+        "benefits and engages society",
+        "informed by past and future",
+      ],
+      answer: "short term sustainability",
+    },
+    {
+      question:
+        '"the ability of a system to adjust to climate change (including climate variability and extremes) to moderate potential damages, to take advantage of opportunities, or to cope with the consequences" is a definition of',
+      options: [
+        "adaptive response",
+        "adaptive capacity",
+        "mitigative response",
+        "mitigative capacity",
+      ],
+      answer: "adaptive capacity",
+    },
+    {
+      question: "which of these is not a climatic forcing for Earth?",
+      options: [
+        "changes in plate tectonics",
+        "changes in Earth's orbit",
+        "changes in Moon's orbit",
+        "changes in Sun's strength",
+      ],
+      answer: "changes in Moon's orbit",
+    },
+    {
+      question:
+        "because of climate change, Mudumalai tiger reserve is suffering from frequent droughts. the management has built several artificial water holes for animals, and fills them up regularly with tankers. in the context of climate change, such an action would be called",
+      options: ["adaptation", "mitigation", "deceleration", "maladaptation"],
+      answer: "adaptation",
+    },
+  ],
+  week11: [
+    {
+      question: "which of these is correct?",
+      options: ["R + G = M + F", "R + M = G + F", "R + F = M + G", "R + G + M + F = 0"],
+      answer: "R + G = M + F",
+    },
+    {
+      question: "which of these is not an impact of toxic chemicals?",
+      options: [
+        "lethal effects",
+        "sub- lethal effects",
+        "reduction of existing stressors",
+        "reduced fecundity",
+      ],
+      answer: "reduction of existing stressors",
+    },
+    {
+      question: "a pest population is called controlled when",
+      options: [
+        "it is not increasing",
+        "it is decreasing",
+        "it is not causing any economic damage",
+        "it is not causing excessive economic damage",
+      ],
+      answer: "it is not causing excessive economic damage",
+    },
+    {
+      question:
+        "a deciduous forest in Madhya Pradesh was converted to a mine. after the mining operations were over, the pits were filled up with soil and species of deciduous forest planted again. this is an example of",
+      options: ["recovery", "restoration", "enhancement", "replacement"],
+      answer: "restoration",
+    },
+    {
+      question: "the root zone treatment plant is an example of",
+      options: ["phytoremediation", "biological control", "biomagnification", "bioaccumulation"],
+      answer: "phytoremediation",
+    },
+    {
+      question: "a pest population called uncontrolled when",
+      options: [
+        "it is increasing",
+        "it is not decreasing",
+        "it is causing some economic damage",
+        "it is causing excessive economic damage",
+      ],
+      answer: "it is causing excessive economic damage",
+    },
+    {
+      question: "the impact of El Nino on fishery in Peru is explained by",
+      options: [
+        "match hypothesis",
+        "mismatch hypothesis",
+        "match- mismatch hypothesis",
+        "non of these",
+      ],
+      answer: "match- mismatch hypothesis",
+    },
+    {
+      question: "which of these is correct",
+      options: [
+        "the maximum sustainable yield is near the beginning of the sigmoidal curve",
+        "the maximum sustainable yield is near the mid-pount of the sigmoidal curve",
+        "the maximum sustainable yield is near the end of the sigmoidal curve",
+        "none of these",
+      ],
+      answer: "the maximum sustainable yield is near the mid-pount of the sigmoidal curve",
+    },
+    {
+      question: "Ludwig's ratchet predicts",
+      options: [
+        "decreasing harvesting rate",
+        "constant harvesting rate",
+        "increasing harvesting rate",
+        "fluctuating harvesting rate",
+      ],
+      answer: "increasing harvesting rate",
+    },
+    {
+      question:
+        "a deciduous forest in Madhya Pradesh was converted to a mine. after the mining operations were over, the pits were filled up with water and a lake was created. it is now visited by several migratory birds. this is an example of",
+      options: ["recovery", "restoration", "enhancement", "replacement"],
+      answer: "replacement",
+    },
+  ],
 };

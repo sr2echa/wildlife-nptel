@@ -24,7 +24,7 @@ export default function Home() {
       <div className="max-w-5xl w-full relative z-10">
         <div className="mb-16 flex flex-col md:flex-row items-center justify-between">
           <div className="text-left mb-8 md:mb-0">
-            <h1 className="text-6xl font-bold mb-2 tracking-tighter">NPTEL</h1>
+            <h1 className="text-6xl font-bold mb-2 tracking-tighter font-sans">NPTEL</h1>
             <h2 className="text-2xl font-light">Wildlife & Ecology Quiz</h2>
           </div>
           <div className="h-0.5 w-24 bg-white md:hidden"></div>
