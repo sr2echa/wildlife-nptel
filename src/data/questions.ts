@@ -838,4 +838,73 @@ export const questionsByWeek: { [week: string]: Question[] } = {
       answer: "replacement",
     },
   ],
+  week12: [
+    {
+      question: '"Enquiry into plants" is a book written by',
+      options: ["Theophrastus", "Linnaeus", "Malthus", "Humboldt"],
+      answer: "Theophrastus",
+    },
+    {
+      question: "The mitochondrion is a/an",
+      options: ["sub-cellular organelle", "cell", "tissue", "organ"],
+      answer: "sub-cellular organelle",
+    },
+    {
+      question: "Which of these is not a pillar of sustainability?",
+      options: [
+        "environmental sustainability",
+        "economic sustainability",
+        "trans-boundary sustainability",
+        "social sustainability",
+      ],
+      answer: "trans-boundary sustainability",
+    },
+    {
+      question: "Good climate is a",
+      options: ["chemical factor", "demographic factor", "push factor", "pull factor"],
+      answer: "pull factor",
+    },
+    {
+      question: "Importance value varies from",
+      options: ["0 to 10", "0 to 50", "0 to 100", "0 to 300"],
+      answer: "0 to 300",
+    },
+    {
+      question:
+        "Consider the food chain: grass → grasshopper → frog → snake → hawk. In this food chain",
+      options: [
+        "frog is producer",
+        "frog is consumer and carnivore",
+        "frog is consumer and herbivore",
+        "frog is decomposer",
+      ],
+      answer: "frog is consumer and carnivore",
+    },
+    {
+      question: "The juvenile mortality rate is the annual number of deaths of juveniles per",
+      options: ["100 births", "1000 births", "100 live births", "1000 live births"],
+      answer: "1000 live births",
+    },
+    {
+      question:
+        "Because of climate change, Mudumalai Tiger Reserve is suffering from frequent droughts. The management has built several artificial water holes for animals and fills them up regularly with tankers. In the context of climate change, such an action would be called",
+      options: ["adaptation", "mitigation", "deceleration", "maladaptation"],
+      answer: "adaptation",
+    },
+    {
+      question: "The scientific study of animal behaviour is called",
+      options: ["behaviourism", "ecology", "ethology", "prey-predator dynamics"],
+      answer: "ethology",
+    },
+    {
+      question: "A zoo is an example of",
+      options: [
+        "in-situ conservation",
+        "ex-situ conservation",
+        "in-situ preservation",
+        "ex-situ preservation",
+      ],
+      answer: "ex-situ conservation",
+    },
+  ],
 };
