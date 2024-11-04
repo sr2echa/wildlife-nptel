@@ -31,6 +31,26 @@ const WeekSelector: React.FC<WeekSelectorProps> = ({ weeks }) => {
             </Link>
           ))}
           <Link
+            href="/quiz/first6"
+            className="bg-black-200 border border-white text-white p-4 hover:bg-gray-900 transition-colors duration-300 flex items-center justify-between"
+          >
+            <span className="flex items-center">
+              <Calendar className="mr-2" size={20} />
+              <span className="text-lg">First 6 Weeks</span>
+            </span>
+            <ArrowRight size={20} />
+          </Link>
+          <Link
+            href="/quiz/last6"
+            className="bg-black-200 border border-white text-white p-4 hover:bg-gray-900 transition-colors duration-300 flex items-center justify-between"
+          >
+            <span className="flex items-center">
+              <Calendar className="mr-2" size={20} />
+              <span className="text-lg">Last 6 Weeks</span>
+            </span>
+            <ArrowRight size={20} />
+          </Link>
+          <Link
             href="/quiz/all"
             className="bg-blue-600 text-white p-4  hover:bg-blue-700 transition-colors duration-300 flex items-center justify-between"
           >
