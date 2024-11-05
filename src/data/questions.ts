@@ -907,4 +907,67 @@ export const questionsByWeek: { [week: string]: Question[] } = {
       answer: "ex-situ conservation",
     },
   ],
+  week69: [
+    {
+      question:
+        "The fig tree bears fruits in times when animals do not have much access to food. In this context, it would be a good example of",
+      options: ["least concern species", "keystone species"],
+      answer: "keystone species",
+    },
+    {
+      question:
+        "People come to Sessa orchid sanctuary in Arunachal Pradesh to witness orchids, which in this context would be classified as",
+      options: ["umbrella species", "keystone species", "flagship species", "extinct species"],
+      answer: "flagship species",
+    },
+    {
+      question:
+        "The tiger has a home range of several square kilometres, regulates the ecosystem through controlling herbivore populations and trophic cascades, and people come to tiger reserves to watch tigers. Thus, the tiger can be called as",
+      options: ["umbrella species", "keystone species", "flagship species", "all of the above"],
+      answer: "all of the above",
+    },
+    {
+      question:
+        "The elephant has a home range of several square kilometres, regulates the ecosystem by its habit of destructive feeding, and people can relate to this animal which is important for conservation Given this background, the elephant can be called as",
+      options: ["umbrella species", "keystone species", "flagship species", "all of the above"],
+      answer: "all of the above",
+    },
+    {
+      question:
+        "Consider the food chain: Grass → Grasshopper → Frog --> Snake → Hawk. In this food chain,",
+      options: [
+        "grass is producer",
+        "grass is consumer",
+        "grass is decomposer",
+        "grass is herbivore",
+      ],
+      answer: "grass is producer",
+    },
+    {
+      question:
+        "Consider the food chain: Grass → Grasshopper → Frog --> Snake → Hawk. In this food chain,",
+      options: [
+        "grasshopper is producer",
+        "grasshopper is consumer",
+        "grasshopper is decomposer",
+        "grasshopper is carnivore",
+      ],
+      answer: "grasshopper is consumer",
+    },
+    {
+      question: "Which of the following best describes habitat selection?",
+      options: [
+        "Habitat selection is completely innate.",
+        "Habitat selection is completely learnt.",
+        "Habitat selection is neither innate nor learnt.",
+        "Habitat selection has both innate and learnt components.",
+      ],
+      answer: "Habitat selection has both innate and learnt components.",
+    },
+    {
+      question: "The regular, seasonal movement of animals, often along fixed routes is called",
+      options: ["translocation", "migration", "dispersal", "drifting"],
+      answer: "migration",
+    },
+  ],
 };
