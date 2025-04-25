@@ -1224,6 +1224,388 @@ const economicsQuestions: Record<string, Question[]> = {
       ],
       "answer": "regulating service"
     }
+  ],
+  "week69": [
+    {
+      "question": "\"The inputs used to produce goods and services\" are known as",
+      "options": [
+        "Factors of input",
+        "Factors of production",
+        "Factors of industry",
+        "Factors of market"
+      ],
+      "answer": "Factors of production"
+    },
+    {
+      "question": "When a consumer is at risk of getting sold a good of cheap quality, that situation is called",
+      "options": [
+        "Adverse selection",
+        "Moral hazard",
+        "Information asymmetry",
+        "Market failure"
+      ],
+      "answer": "Adverse selection"
+    },
+    {
+      "question": "Defence is a",
+      "options": [
+        "Public good",
+        "Private good",
+        "Common resources",
+        "Club resource"
+      ],
+      "answer": "Public good"
+    },
+    {
+      "question": "Environment is a",
+      "options": [
+        "Public good",
+        "Private good",
+        "Common resources",
+        "Club resource"
+      ],
+      "answer": "Common resources"
+    },
+    {
+      "question": "The political philosophy according to which the government should punish crimes and enforce voluntary agreements but not redistribute income is",
+      "options": [
+        "Utilitarianism",
+        "Liberalism",
+        "Libertarianism",
+        "Socialism"
+      ],
+      "answer": "Libertarianism"
+    },
+    {
+      "question": "Mesodebris size",
+      "options": [
+        "< 5 mm",
+        "5 mm - 20 mm",
+        "> 20 mm",
+        "None of the above"
+      ],
+      "answer": "5 mm - 20 mm"
+    },
+    {
+      "question": "Size of macrodebris w.r.t plastic",
+      "options": [
+        "< 5 mm",
+        "5 mm - 20 mm",
+        "> 20 mm",
+        "None of the above"
+      ],
+      "answer": "> 20 mm"
+    },
+    {
+      "question": "What affects Earth the least",
+      "options": [
+        "Sun's orbit",
+        "Earth's orbit",
+        "Sun's rays",
+        "Earth's tectonic plates"
+      ],
+      "answer": "Sun's orbit"
+    },
+    {
+      "question": "A question was asked on something increasing",
+      "options": [
+        "Escalating",
+        "Decreasing",
+        "Stabilizing",
+        "Fluctuating"
+      ],
+      "answer": "Escalating"
+    },
+    {
+      "question": "For a positive consumption externality",
+      "options": [
+        "SMC = PMC + MD",
+        "SMC = PMC - MD",
+        "SMC = PMC",
+        "SMC = PMC - MB"
+      ],
+      "answer": "SMC = PMC"
+    },
+    {
+      "question": "Impact of carbon",
+      "options": [
+        "Cost of carbon",
+        "Economic cost of carbon",
+        "Cultural cost of carbon",
+        "Social cost of carbon"
+      ],
+      "answer": "Economic cost of carbon"
+    },
+    {
+      "question": "Which of the following is true for monopoly?",
+      "options": [
+        "P > MR",
+        "MR > MC",
+        "MC > P",
+        "MC > MR"
+      ],
+      "answer": "P > MR"
+    },
+    {
+      "question": "Government policies for \"veil of ignorance\"",
+      "options": [
+        "Policies focusing on fairness, equality, justice, or protecting the disadvantaged",
+        "Policies focusing on economic growth",
+        "Policies focusing on national security",
+        "Policies focusing on environmental protection"
+      ],
+      "answer": "Policies focusing on fairness, equality, justice, or protecting the disadvantaged"
+    },
+    {
+      "question": "Supply of medicines is an example of",
+      "options": [
+        "Provisioning service",
+        "Regulating service",
+        "Supporting service",
+        "Cultural service"
+      ],
+      "answer": "Provisioning service"
+    },
+    {
+      "question": "The rate of any biological process is limited by that factor in least amount relative to requirement. This is the statement for",
+      "options": [
+        "Liebig's law of the minimum",
+        "Liebig's law of the maximum",
+        "Shelford's law of tolerance",
+        "Shelford's law of intolerance"
+      ],
+      "answer": "Liebig's law of the minimum"
+    },
+    {
+      "question": "The claim that, other things being equal, the quantity supplied of a good rises when the price of the good rises is a statement of",
+      "options": [
+        "Law of demand",
+        "Law of supply",
+        "Law of quantity demanded",
+        "Law of quantity supplied"
+      ],
+      "answer": "Law of supply"
+    },
+    {
+      "question": "Captive breeding is an example of",
+      "options": [
+        "In-situ conservation",
+        "Ex-situ conservation",
+        "In-situ preservation",
+        "Ex-situ preservation"
+      ],
+      "answer": "Ex-situ conservation"
+    },
+    {
+      "question": "A legal minimum on the price at which a good can be sold is",
+      "options": [
+        "Price ceiling",
+        "Price floor",
+        "Selling ceiling",
+        "Selling floor"
+      ],
+      "answer": "Price floor"
+    },
+    {
+      "question": "A graph of the relationship between the price of a good and the quantity supplied is",
+      "options": [
+        "Demand curve",
+        "Supply curve",
+        "Laffer's curve",
+        "Phillips curve"
+      ],
+      "answer": "Supply curve"
+    },
+    {
+      "question": "Hydrogen for nuclear fusion is an example of",
+      "options": [
+        "Potential resource",
+        "Actual resource",
+        "Reserve resource",
+        "Stock resource"
+      ],
+      "answer": "Stock resource"
+    },
+    {
+      "question": "Loss of ecosystem services due to mining is an example of",
+      "options": [
+        "Negative production externality",
+        "Positive production externality",
+        "Negative consumption externality",
+        "Positive consumption externality"
+      ],
+      "answer": "Negative production externality"
+    },
+    {
+      "question": "The fig tree would be a good example of",
+      "options": [
+        "Least concern species",
+        "Keystone species",
+        "Flagship species",
+        "Extinct species"
+      ],
+      "answer": "Keystone species"
+    },
+    {
+      "question": "Supply of medicines is an example of",
+      "options": [
+        "Provisioning service",
+        "Regulating service",
+        "Supporting service",
+        "Cultural service"
+      ],
+      "answer": "Provisioning service"
+    },
+    {
+      "question": "The extent to which a chemical substance is available for uptake into an organism is",
+      "options": [
+        "Bioavailability",
+        "Bioaccumulation",
+        "Biomagnification",
+        "Bioresponse"
+      ],
+      "answer": "Bioavailability"
+    },
+    {
+      "question": "Because of climate change, Mudumalai Tiger Reserve is suffering from frequent droughts. The management builds artificial water holes and fills them with tankers. This action is called",
+      "options": [
+        "Adaptation",
+        "Mitigation",
+        "Deceleration",
+        "Maladaptation"
+      ],
+      "answer": "Adaptation"
+    },
+    {
+      "question": "The market value of the inputs a firm uses in production is",
+      "options": [
+        "Total revenue",
+        "Total cost",
+        "Profit",
+        "Loss"
+      ],
+      "answer": "Total cost"
+    },
+    {
+      "question": "Which of these is not an impact of toxic chemicals?",
+      "options": [
+        "Lethal effects",
+        "Sub-lethal effects",
+        "Reduction of existing stressors",
+        "Reduced fecundity"
+      ],
+      "answer": "Reduction of existing stressors"
+    },
+    {
+      "question": "A visual model of the economy showing how money flows through markets among households and firms is",
+      "options": [
+        "Phillips curve",
+        "Laffer's curve",
+        "Circular flow diagram",
+        "Production possibilities frontier"
+      ],
+      "answer": "Circular flow diagram"
+    },
+    {
+      "question": "Coffee powder and sugar are",
+      "options": [
+        "Substitutes",
+        "Complements",
+        "Club goods",
+        "Public goods"
+      ],
+      "answer": "Complements"
+    },
+    {
+      "question": "Total revenue minus total explicit cost is a definition of",
+      "options": [
+        "Economic profit",
+        "Accounting profit",
+        "Profit",
+        "Loss"
+      ],
+      "answer": "Accounting profit"
+    },
+    {
+      "question": "Public goods are",
+      "options": [
+        "Excludable, rival in consumption",
+        "Non-excludable, rival in consumption",
+        "Excludable, non-rival in consumption",
+        "Non-excludable, non-rival in consumption"
+      ],
+      "answer": "Non-excludable, non-rival in consumption"
+    },
+    {
+      "question": "The rate at which a consumer is willing to trade one good for another is known as",
+      "options": [
+        "Marginal rate of substitution",
+        "Marginal rate of exchange",
+        "Marginal rate of trade",
+        "Marginal rate of transfer"
+      ],
+      "answer": "Marginal rate of substitution"
+    },
+    {
+      "question": "\"Apple's iPod is good, so Apple should be good for other devices as well.\" This is an example of",
+      "options": [
+        "Confirmation bias",
+        "Halo effect",
+        "Horn effect",
+        "Priming"
+      ],
+      "answer": "Halo effect"
+    },
+    {
+      "question": "Those resources that have been surveyed but we lack the technology to use them are",
+      "options": [
+        "Potential resources",
+        "Actual resources",
+        "Reserve resources",
+        "Stock resources"
+      ],
+      "answer": "Potential resources"
+    },
+    {
+      "question": "The government mandated replacing incandescent bulbs with LED bulbs to reduce electricity and CO2 emissions. This is called",
+      "options": [
+        "Adaptation",
+        "Mitigation",
+        "Deceleration",
+        "Maladaptation"
+      ],
+      "answer": "Mitigation"
+    },
+    {
+      "question": "Mental shortcut justifying increased investment in a decision because prior investment was made is",
+      "options": [
+        "Affect heuristic",
+        "Availability heuristic",
+        "Effort heuristic",
+        "Escalation of commitment"
+      ],
+      "answer": "Escalation of commitment"
+    },
+    {
+      "question": "The increasing concentration of a toxic substance in organisms at higher levels of a food chain is called",
+      "options": [
+        "Bioavailability",
+        "Bioaccumulation",
+        "Biomagnification",
+        "Bioresponse"
+      ],
+      "answer": "Biomagnification"
+    },
+    {
+      "question": "A measure of how the quantity supplied of a good responds to a change in its price is",
+      "options": [
+        "Price elasticity of demand",
+        "Income elasticity of demand",
+        "Cross-price elasticity of demand",
+        "Price elasticity of supply"
+      ],
+      "answer": "Price elasticity of supply"
+    }
   ]
 };
 
